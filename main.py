@@ -10,7 +10,6 @@ screen.setup(1000,600)
 screen.title("Pong ")
 screen.listen()
 screen.tracer(0)
-
 scoreboard=Scoreboard()
 r_pad1=Paddle(455)
 l_pad1=Paddle(-455)
@@ -27,13 +26,13 @@ game_is_on=True
 while game_is_on==True:
     aple=0.01
     time.sleep(aple)
-    ball.forward(5)
+    ball.forward(6)
     if ball.ycor()>290 or ball.ycor()<-290:
         ball.bounce()
-    if ball.distance(r_pad1)<50 and ball.xcor()>360:
+    if ball.distance(r_pad1)<50 and ball.xcor()>452:
         ball.hit_on_right()
         aple*=0.1
-    if ball.distance(l_pad1)<50 and ball.xcor()<-360:
+    if ball.distance(l_pad1)<50 and ball.xcor()<-452:
         ball.hit_on_left()
         aple*=0.1
     if ball.xcor()>480:

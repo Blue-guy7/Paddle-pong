@@ -8,7 +8,7 @@ class Paddle(Turtle):
         self.setposition(int(aple),0)
         self.shape("square")
         self.resizemode("user")
-        self.shapesize(0.5,5)
+        self.shapesize(0.5,6)
         self.setheading(90)
                 
     def Up(self):

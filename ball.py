@@ -12,8 +12,11 @@ class Ball(Turtle):
         self.start_rand_direction()
         self.speed(1)
     def start_rand_direction(self):
-        rand_angle = random.randrange(0, 360, 25)
-        self.setheading(rand_angle)
+        rand_angle_rightup = random.randrange(5, 70, 20)
+        rand_angle_leftup=random.randrange(110, 175, 20)
+        rand_angle_rightdown=random.randrange(290, 355, 20)
+        rand_angle_leftdown=random.randrange(185, 250, 20)
+        self.setheading(random.choice([rand_angle_rightdown,rand_angle_leftup,rand_angle_leftdown,rand_angle_rightup]))
 
     def bounce(self):
         i=self.heading()
