@@ -43,6 +43,8 @@ while game_is_on==True:
         scoreboard.r_win()
         ball.home()
         ball.start_rand_direction()
+    if scoreboard.game_over():
+        game_is_on=False
     screen.update()    
 
 

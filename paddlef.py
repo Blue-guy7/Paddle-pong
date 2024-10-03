@@ -1,5 +1,4 @@
 from turtle import Turtle
-
 class Paddle(Turtle):
     def __init__(self,aple):
         super().__init__()
@@ -12,7 +11,7 @@ class Paddle(Turtle):
         self.setheading(90)
                 
     def Up(self):
-        self.forward(30)
+        self.forward(45)
     def Down(self):
-        self.backward(30)
+        self.backward(45)
 

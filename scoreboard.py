@@ -23,3 +23,13 @@ class Scoreboard(Turtle):
         self.clear()
         self.r_score+=1
         self.new_score()
+
+    def game_over(self):
+        if self.l_score>=10:
+            self.setposition(0,100)
+            self.write("Left paddle wins",False,"center",("Arial", 24, "normal"))
+            return True
+        elif self.r_score>=10:
+            self.setposition(0,100)
+            self.write("Right paddle wins",False,"center",("Arial", 24, "normal"))
+            return True
