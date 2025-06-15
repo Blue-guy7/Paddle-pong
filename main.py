@@ -26,7 +26,7 @@ game_is_on=True
 while game_is_on==True:
     aple=0.01
     time.sleep(aple)
-    ball.forward(6)
+    ball.forward(8)
     if ball.ycor()>290 or ball.ycor()<-290:
         ball.bounce()
     if ball.distance(r_pad1)<50 and ball.xcor()>452:
