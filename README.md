@@ -3,6 +3,7 @@
 A classic Pong game implementation using Python's Turtle graphics library. Experience the nostalgic arcade game with smooth gameplay, responsive controls, and score tracking.
 
 ![Python](https://img.shields.io/badge/python-v3.6+-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 ## Game Features
 
@@ -56,7 +57,7 @@ python main.py
 ## Project Structure
 
 ```
-pong-game/
+Paddle-pong/
 │
 ├── main.py          # Main game loop and setup
 ├── ball.py          # Ball class with physics and movement
@@ -101,7 +102,11 @@ You can easily customize the game by modifying these parameters in `main.py`:
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+5. Open a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
