@@ -93,7 +93,6 @@ You can easily customize the game by modifying these parameters in `main.py`:
 
 ## Known Issues
 
-• Ball might occasionally get stuck in paddle - restart game if this occurs
 • Speed acceleration could make the game too fast in extended play
 
 ## Contributing
