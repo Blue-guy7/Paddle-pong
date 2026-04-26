@@ -21,19 +21,18 @@ A classic Pong game implementation using Python's Turtle graphics library. Exper
 - Python 3.6 or higher
 - Turtle graphics library (included with Python)
 
-### Installation
-
-1. Clone the repository:
+### Run the Source Code
 ```bash
 git clone https://github.com/Blue-guy7/Paddle-pong.git
 cd Paddle-pong
-```
-
-2. Run the game:
-```bash
 python main.py
 ```
 
+## 🚀 Play the Game
+
+* **Play in Browser:** (https://ball-game--nilangshugangul.replit.app/) *(Zero setup required)*
+* **Download Desktop Version:**(https://github.com/Blue-guy7/Paddle-pong/releases/tag/v1.0.0) *(Standalone .exe for Windows)*
+  
 ## How to Play
 
 ### Controls
