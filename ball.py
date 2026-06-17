@@ -23,23 +23,14 @@ class Ball(Turtle):
         self.setheading(360-i)
 
     def hit_on_right(self):
-        if self.heading()==0:
-            self.setheading(180)
-        elif self.heading()<90:
-            aple=self.heading()
-            self.setheading(aple+90)
-        elif self.heading()>270:
-            mango=self.heading()
-            self.setheading(mango-90)
+        current_heading = self.heading()
+        reflected_heading = (180 - current_heading) % 360
+        self.setheading(reflected_heading)
+
     def hit_on_left(self):
-        if self.heading()==180:
-            self.setheading(0)
-        elif self.heading()<180:
-            aple=self.heading()
-            self.setheading(aple-90)
-        elif self.heading()>180:
-            mango=self.heading()
-            self.setheading(mango+90)
+        current_heading = self.heading()
+        reflected_heading = (180 - current_heading) % 360
+        self.setheading(reflected_heading)
 
 
     
