@@ -30,7 +30,6 @@ python main.py
 
 ## 🚀 Play the Game
 
-* **Play in Browser:** (https://ball-game--nilangshugangul.replit.app/) *(Zero setup required)*
 * **Download Desktop Version:**(https://github.com/Blue-guy7/Paddle-pong/releases/tag/v1.0.0) *(Standalone .exe for Windows)*
   
 ## How to Play
@@ -85,8 +84,6 @@ Paddle-pong/
 You can easily customize the game by modifying these parameters in `main.py`:
 
 • **Screen size**: Change `screen.setup(1000,600)` values
-• **Ball speed**: Modify the `ball.forward(8)` value
-• **Paddle speed**: Adjust the `45` value in `Up()` and `Down()` methods
 • **Winning score**: Change the `10` in `game_over()` method
 • **Colors**: Modify color values in each class
 
