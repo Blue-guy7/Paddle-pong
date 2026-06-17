@@ -4,7 +4,7 @@ class Paddle(Turtle):
         super().__init__()
         self.penup()
         self.color("white")
-        self.setposition(int(aple),0)
+        self.setposition(x_position,0)
         self.shape("square")
         self.resizemode("user")
         self.shapesize(0.5,6)
